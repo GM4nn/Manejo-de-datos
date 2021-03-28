@@ -41,9 +41,9 @@ def add(catalog,description):
  
             if cursor.fetchone().get("existe") == 1:
                 return {
-					"msg":f"La descripcion {description} ya existe en {catalog}",
-					"register":None
-				}
+			"msg":f"La descripcion {description} ya existe en {catalog}",
+			"register":None
+		}
             
             data = (catalog,get_columns_catalog['NomColDes'],description,)
             sql = "INSERT INTO %s (%s) VALUES ('%s')" % data
