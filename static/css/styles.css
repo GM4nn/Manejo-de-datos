@@ -1,0 +1,24 @@
+.bg-menu{
+    /* background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3) ); */
+    background-color:rgba(41, 41, 41, 1.0) ;
+    border-radius: 30px;
+}
+
+.my-menu-link{
+  color: black !important;
+  background:#bdbdbd!important
+}
+
+.border-radius-top-custom{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.border-radius-bottom-custom{
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.border-radius-all-custom{
+  border-radius: 30px;
+}
